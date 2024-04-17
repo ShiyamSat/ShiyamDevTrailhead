@@ -1,0 +1,15 @@
+<template>
+    <lightning-card>
+    Hello Shiyam !!
+    
+    <lightning-input type="Text" label="Name of the User" value={userNameVal} onchange={handleuserName}>
+       </lightning-input>
+
+        <lightning-input type="Text" label="Location" value={postalCodeVal} onchange={handlePostalCode}>       
+        </lightning-input>
+        <lightning-button label="Submit" onclick={handleSubmit}></lightning-button>
+
+        <p>Super username is {usernameUpdated} </p>
+     
+    </lightning-card>
+</template>

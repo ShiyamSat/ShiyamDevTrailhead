@@ -1,0 +1,10 @@
+<!-- employeeForm.html -->
+<template>
+    <lightning-card title="Employee Form">
+        <div class="slds-p-around_medium">
+            <lightning-input label="Name" value={name} onchange={handleNameChange}></lightning-input>
+            <lightning-input label="City" value={cityVal} onchange={handleCityChange}></lightning-input>
+            <lightning-button variant="brand" label="Save" onclick={saveEmployee}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
